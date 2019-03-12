@@ -17,8 +17,9 @@ pip install -r requirements.txt
 
 # export variables for user and auth
 
-REONOMY_ID=<user>
-REONOMY_PASSWORD=<password>
+REONOMY_ID=&lt;user&gt;
+  
+REONOMY_PASSWORD=&lt;password&gt;
 
 # run the script
 
