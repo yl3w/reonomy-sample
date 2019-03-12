@@ -67,7 +67,7 @@ def main():
     properties_for_polygon = map(lambda r : make_search_request(r), reqs)
 
     print("Fetching property details and writing to file in results folder")
-    print("MAX OF 30 REQUESTS PER MINUTE, SLEEPING IF NECESSARY")
+    print("MAX OF 20 REQUESTS PER MINUTE, SLEEPING IF NECESSARY")
     for properties in properties_for_polygon:
         for pid in properties:
             fetch_property_details(pid)
