@@ -23,7 +23,7 @@ REONOMY_PASSWORD=&lt;password&gt;
 
 # run the script
 
-python wework.py
+python reonomy.py
 
 results will be in ./results folder
 
